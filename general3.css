@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-viewport{ width: device-width; scale:1;}
+@-ms-viewport{ width: device-width; scale:1;}
+@-o-viewport{ width: device-width; scale:1;}
+@-webkit-viewport{ width: device-width; scale:1;}
+@viewport{ width: device-width; scale:1;}
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FCFCFC;
+}
+
+h1 {
+	font-size: 1.5rem;
+	margin: 1.5rem 8px;
+}
+
+h2 {
+	font-size: 1rem;
+	margin: 1rem 0 1.5rem 10px;
+	color: #656565;
+}
+
+table, th, td {
+	color: #9E9E9E;
+	margin-left: 10px;
+	height: 20px;
+	width: 75%;
+	font-size: .75rem;
+	table-layout: fixed;
+}
+
+th {
+	text-align: left;
+	padding: 0 0 .5rem 0;
+	color: #8D8D8D;
+}
